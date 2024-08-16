@@ -5,7 +5,7 @@ from pilmoji import Pilmoji
 from PIL import Image, ImageFont, ImageDraw
 from nextcord.ext import commands
 
-TESTING_GUILD_ID = 954553543342313522
+TESTING_GUILD_ID = xxxxxxx
 
 
 def find_font_size(text, font, image, target_width_ratio):
@@ -49,4 +49,4 @@ async def coen(interaction: nextcord.Interaction, arg: str):
         image.save("result.jpg")
     await interaction.send(f'{textp}!', files=[nextcord.File('result.jpg')])
 
-bot.run('***REMOVED***')
+bot.run('xxxxxxxx')
